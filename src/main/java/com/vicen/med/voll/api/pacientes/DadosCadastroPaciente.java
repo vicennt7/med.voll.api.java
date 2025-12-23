@@ -1,4 +1,4 @@
-package com.vicen.crud_spring.pacientes;
+package com.vicen.med.voll.api.pacientes;
 
 import med.voll.api.endereco.DadosEndereco;
 
