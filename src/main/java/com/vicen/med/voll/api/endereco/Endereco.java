@@ -11,7 +11,7 @@ import med.voll.api.endereco.DadosEndereco;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Endereco {
-    private String longradouro;
+    private String logradouro;
     private String bairro;
     private String cep;
     private String numero;
@@ -20,7 +20,7 @@ public class Endereco {
     private String uf;
 
     public Endereco(DadosEndereco dados) {
-        this.longradouro = dados.logradouro();
+        this.logradouro = dados.logradouro();
         this.bairro = dados.bairro();
         this.cep = dados.cep();
         this.numero = dados.numero();
